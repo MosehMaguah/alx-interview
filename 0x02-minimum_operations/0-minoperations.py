@@ -11,10 +11,10 @@ def minOperations(n):
     n H characters in the file.
     """
     operations = 0
-    mini_operations = 2
+    min_operations = 2
     while n > 1:
-        while n % mini_operations == 0:
-            operations += mini_operations
-            n /= mini_operations
-        mini_operations += 1
+        while n % min_operations == 0:
+            operations += min_operations
+            n /= min_operations
+        min_operations += 1
     return operations
