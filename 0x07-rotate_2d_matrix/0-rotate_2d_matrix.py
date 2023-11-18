@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    Define a function that rotates an nxn 2D matrix 90 degrees clockwise in-place
+    Defines a function that rotates an nxn 2D matrix 90 degrees clockwise in-place
 """
 
 
